@@ -151,7 +151,21 @@
     <p>&copy; 2023 Taxi Company. All rights reserved.</p>
   </footer>
   <!-- HTML code for your website -->
-  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const navLinks = document.querySelectorAll(".nav-menu li a");
+
+      for (const link of navLinks) {
+        link.addEventListener("click", function(e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          target.scrollIntoView({
+            behavior: "smooth"
+          });
+        });
+      }
+    });
+  </script>
 
 </body>
 </html>
