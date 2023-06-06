@@ -85,7 +85,7 @@
   <!-- Booking or Reservation Section -->
   <section class="booking">
     <h2>Book a Taxi</h2>
-    <form name="booking" method="POST" data-netlify="true">
+    <form name="booking" method="POST" data-netlify-recaptcha="true" data-netlify="true">
       <label for="pickup">Pickup Location:</label>
       <input type="text" id="pickup" name="pickup">
 
@@ -100,7 +100,7 @@
 
       <label for="additional">Additional Requirements:</label>
       <textarea id="additional" name="additional"></textarea>
-
+      <div data-netlify-recaptcha="true"></div>
       <input type="submit" value="Submit">
     </form>
   </section>
