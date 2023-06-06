@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // Example: Validate and submit booking form
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
   const bookingForm = document.querySelector(".booking form");
 
   if (bookingForm) {
@@ -83,3 +83,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 });
+*/
