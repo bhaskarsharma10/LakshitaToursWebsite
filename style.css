@@ -223,7 +223,7 @@ header {
 .booking form input,
 .booking form textarea {
   padding: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 5px;
   width: 300px;
 }
 
@@ -260,6 +260,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .contact form label {
